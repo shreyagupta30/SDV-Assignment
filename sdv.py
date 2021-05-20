@@ -5,7 +5,7 @@ import yaml
 from github import Github
 from nested_lookup import nested_lookup
 
-pat_key = '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'
+pat_key = ''
 
 user_repo = input("Enter the repository link :\n")
 key_to_find = input('Enter the key you want to find :\n')
