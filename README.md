@@ -22,6 +22,8 @@ pipenv install
 ```
 - This will setup the project requirements and pre-commit test hooks!
 
+NOTE: Add your own Github Personal Access Token in sdv.py in `pat_key`. 
+
 After the above setup, run
 
 ``` python
