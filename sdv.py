@@ -14,8 +14,8 @@ key_found = False
 
 split_chars = user_repo.split('/')
 
-user = ''
-repository = ''
+user = str(split_chars[-2])
+repository = str(split_chars[-1])
 branch = 'master'
 
 if split_chars[-2] == 'tree':
